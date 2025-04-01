@@ -68,3 +68,32 @@ a:hover {
   .font {
     font-size: 2.5em;
   }
+
+  セレクタ {
+    position: fixed;
+    top: 値;
+    right: 値;
+    bottom: 値;
+    left: 値;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 1024px) {
+    /* タブレットサイズの画面幅（768px～1024px）で適用されるスタイル */
+    h1 {
+      font-size: 32px;
+    }
+  }
+  @media  screen and (max-width: 767px) {
+    /* SPサイズの画面幅（375px～767px）で適用されるスタイル */
+    h1 {
+      font-size: 16px;
+    }
+  }
+  /*
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  */
