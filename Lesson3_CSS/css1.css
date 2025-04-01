@@ -2,3 +2,17 @@
 p {
     color: red; /*このプロパティは赤色を指定しています。*/
 }
+
+h1, p {
+    color: red;
+  }
+
+  /* CSS側 */
+.red-text {
+  color: red;
+}
+
+/*
+HTMLではこんな感じ
+<p class="red-text">赤色のテキスト</p>
+/*
